@@ -1,5 +1,5 @@
-FROM alpine
-
+# Version 0.0.1
+FROM alpine:latest
 MAINTAINER  qiaodapei <qiaodapei@163.com>
 
 RUN echo 'http://nl.alpinelinux.org/alpine/edge/main' >> /etc/apk/repositories \
