@@ -1,13 +1,3 @@
-#+title: Docker Shadowsocks Client
-#+description: shadowsocks client in docker(based on alpine linux)
-#+keywords: docker shadowsocks client
-#+author: littleqz
-#modify: qiaodapei
-#+email: qiaodapei@gmail.com
-#+date: <2019-02-28 星期二 17:27>
-#+startup: indent hideblocks content
-#+options: ^:{} toc:t
-
 # What is this?
 Shadowsocks client in a docker container. Quickly create local shadowsocks client in 5 secs.
 
