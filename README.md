@@ -8,10 +8,10 @@
 #+startup: indent hideblocks content
 #+options: ^:{} toc:t
 
-* What is this?
+# What is this?
 Shadowsocks client in a docker container. Quickly create local shadowsocks client in 5 secs.
 
-* How to use?
+# How to use?
 Simply run(replace related args with your custom value)
 
 : sudo docker run -d --restart=yes \
@@ -33,7 +33,7 @@ Setting connection info in *docker-compose.yml*, then run
 
 Now your can access your socks proxy with address ~localhost:1080~.
 
-* Build your own image
+# Build your own image
 If you would like to build your own docker image, simply clone this repo and run:
 
 : sudo docker build -t <your-image-name> .
